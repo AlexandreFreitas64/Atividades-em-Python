@@ -23,7 +23,7 @@ janela = Tk()
 
 janela.title("Cotação atual das Moedas")
 
-janela.geometry("800x400")
+janela.geometry("400x300")
 texto_janela = Label(janela, text = "Clique no Botão para ver as cotações de moeda:")
 texto_janela.grid(column= 0, row= 0, padx=60, pady=30)
 
